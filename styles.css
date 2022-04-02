@@ -6,6 +6,7 @@
 
 html {
     font-size: 1rem;
+    font-family: Verdana, sans-serif;
 }
 
 .title {
@@ -26,7 +27,6 @@ html {
     border-width: 1px;
     border-style: solid;
     border-radius: 10px;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .card-light {
@@ -41,8 +41,17 @@ html {
     border-color: #2e2d28;
 }
 
-.image {
+.card--shadow {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.card__title {
+    font-size: 1.40rem;
+}
+
+.card__image {
     max-width: 200px;
+    border-radius: 4px;
 }
 
 /* Happy coding! */
