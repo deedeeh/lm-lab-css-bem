@@ -2,6 +2,7 @@
 :root {
     --light: #faf7d9;
     --dark: #363530;
+    --white: #FFF;
 }
 
 html {
@@ -21,12 +22,14 @@ html {
 }
 
 .card {
+    height: 400px;
     width: 200px;
     margin: 1rem;
     padding: 2rem;
     border-width: 1px;
     border-style: solid;
     border-radius: 10px;
+    position: relative;
 }
 
 .card-light {
@@ -52,6 +55,26 @@ html {
 .card__image {
     max-width: 200px;
     border-radius: 4px;
+}
+
+.button {
+    padding: 8px;
+    border-radius: 4px;
+    text-align: center;
+    font-size: 1rem;
+    border-style: none;
+    position: absolute;
+    bottom: 15px;
+}
+
+.button-danger {
+    background-color: #c24c4b;
+    color: var(--white);
+}
+
+.button-success {
+    background-color: #60b760;
+    color: var(--white);
 }
 
 /* Happy coding! */
